@@ -9,3 +9,4 @@ python-multipart
 pydantic
 scikit-learn
 scipy
+tf-keras
