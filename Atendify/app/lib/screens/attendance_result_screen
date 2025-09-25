@@ -1,0 +1,40 @@
+import 'dart:convert';
+import 'package:flutter/material.dart';
+import '../services/models.dart';
+
+class AttendanceResultScreen extends StatelessWidget {
+  final AttendanceResponse attendance;
+  const AttendanceResultScreen({super.key, required this.attendance});
+
+  @override
+  Widget build(BuildContext context) {
+    final hasImage = attendance.annotatedImage.isNotEmpty;
+    final imageBytes = hasImage ? base64Decode(attendance.annotatedImage) : null;
+
+    return Scaffold(
+      appBar: AppBar(title: const Text("Attendance Result")),
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(12),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            if (hasImage)
+              Center(child: Image.memory(imageBytes!, fit: BoxFit.contain)),
+            const SizedBox(height: 12),
+            Text("Session ID: ${attendance.sessionId}", style: const TextStyle(fontWeight: FontWeight.w600)),
+            const SizedBox(height: 8),
+            Text("Message: ${attendance.message}"),
+            const SizedBox(height: 8),
+            Text("Attendance rate: ${attendance.attendanceRate}", style: const TextStyle(fontSize: 16)),
+            const Divider(),
+            Text("Present (${attendance.present.length}):", style: const TextStyle(fontWeight: FontWeight.bold)),
+            ...attendance.present.map((p) => ListTile(leading: const Icon(Icons.check, color: Colors.green), title: Text(p))),
+            const Divider(),
+            Text("Absent (${attendance.absent.length}):", style: const TextStyle(fontWeight: FontWeight.bold)),
+            ...attendance.absent.map((p) => ListTile(leading: const Icon(Icons.close, color: Colors.red), title: Text(p))),
+          ],
+        ),
+      ),
+    );
+  }
+}

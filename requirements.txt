@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+deepface
+opencv-python
+numpy
+pandas
+sqlalchemy
+python-multipart
+pydantic
+scikit-learn
+scipy

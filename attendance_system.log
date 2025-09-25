@@ -1,0 +1,38 @@
+2025-09-25 18:53:53,696 - INFO - Database initialized successfully
+2025-09-25 18:53:53,696 - INFO - Flutter Attendance System initialized
+2025-09-25 18:53:53,696 - INFO - Loading student embeddings...
+2025-09-25 18:53:53,696 - INFO - Loaded 5 students from cache
+2025-09-25 18:53:53,696 - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-09-25 18:55:21,533 - INFO - Database initialized successfully
+2025-09-25 18:55:21,535 - INFO - Flutter Attendance System initialized
+2025-09-25 18:55:21,535 - INFO - Loading student embeddings...
+2025-09-25 18:55:21,537 - INFO - Loaded 5 students from cache
+2025-09-25 19:00:08,407 - INFO - Database initialized successfully
+2025-09-25 19:00:08,410 - INFO - Flutter Attendance System initialized
+2025-09-25 19:00:08,410 - INFO - Loading student embeddings...
+2025-09-25 19:00:08,412 - INFO - Loaded 5 students from cache
+2025-09-26 01:20:22,186 - INFO - Database initialized successfully
+2025-09-26 01:20:22,189 - INFO - Flutter Attendance System initialized
+2025-09-26 01:20:22,189 - INFO - Loading student embeddings...
+2025-09-26 01:20:22,192 - INFO - Loaded 5 students from cache
+2025-09-26 01:20:22,206 - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-09-26 01:24:00,857 - INFO - Database initialized successfully
+2025-09-26 01:24:00,857 - INFO - Flutter Attendance System initialized
+2025-09-26 01:24:00,857 - INFO - Loading student embeddings...
+2025-09-26 01:24:00,857 - INFO - Loaded 5 students from cache
+2025-09-26 02:08:12,740 - INFO - Database initialized successfully
+2025-09-26 02:08:12,742 - INFO - Flutter Attendance System initialized
+2025-09-26 02:08:12,742 - INFO - Loading student embeddings...
+2025-09-26 02:08:12,745 - INFO - Loaded 5 students from cache
+2025-09-26 02:09:30,018 - INFO - Database initialized successfully
+2025-09-26 02:09:30,018 - INFO - Flutter Attendance System initialized
+2025-09-26 02:09:30,018 - INFO - Loading student embeddings...
+2025-09-26 02:09:30,018 - INFO - Loaded 5 students from cache

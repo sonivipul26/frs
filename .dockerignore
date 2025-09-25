@@ -1,0 +1,10 @@
+.venv
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+*.db
+*.sqlite3
+*.xlsx
+*.jpg
+*.png
