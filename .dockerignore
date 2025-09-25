@@ -8,3 +8,35 @@ __pycache__/
 *.xlsx
 *.jpg
 *.png
+# Ignore node_modules folder
+node_modules
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment files
+.env
+
+# Ignore Git files
+.git
+.gitignore
+
+# Ignore logs
+*.log
+logs/
+npm-debug.log*
+
+# Ignore Docker files
+Dockerfile
+docker-compose.yml
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
